@@ -112,6 +112,11 @@ public class UIManager : MonoBehaviour
             Fade.SetActive(false);
         });
     }
+
+    public void PauseGame()
+    {
+        GameManager.instance.BackToLoby();
+    }
     public void ExitButton()
     {
         UI_level = 1;
