@@ -11,10 +11,10 @@ public class DBTester : MonoBehaviour
 {
 
     MySqlConnection sqlconn = null;
-    private string sqlDBip = "us-cdbr-east-02.cleardb.com";
-    private string sqlDBname = "heroku_542e46638499b42";
-    private string sqlDBid = "b5b22d35ebca94";
-    private string sqlDBpw = "e02ea12c";
+    private string sqlDBip = "ip";
+    private string sqlDBname = "dbname";
+    private string sqlDBid = "dbid";
+    private string sqlDBpw = "dbpw";
 
     public void sqlConnect()
     {
